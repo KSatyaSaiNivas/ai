@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>K. Satya Sai Nivas | Portfolio</title>
+  <title>Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -12,7 +11,8 @@
 <!-- NAVBAR -->
 <header class="navbar">
   <div class="navbar-left">
-    <img class="logo-image" src="your-logo.png">
+    <!-- FIX: Put correct image path -->
+    <img class="logo-image" src="images/logo.png">
   </div>
 
   <div class="navbar-right">
@@ -29,38 +29,13 @@
   <div class="home-left">
     <h1 class="home-h1">K. Satya Sai Nivas</h1>
     <p class="home-p">
-      I’m a Computer Science student passionate about web development and coding.
-      I build responsive websites using HTML, CSS, and JavaScript.
+      I’m a Computer Science student passionate about web development.
     </p>
   </div>
 
   <div class="home-right">
-    <img src="your-photo.jpg">
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section class="about" id="about">
-  <h1 class="skl-h1">About Me</h1>
-
-  <div class="skills-sub">
-    <div class="skills-sub-content">
-      <h3>High School</h3>
-      <p>Chaitanya Public School</p>
-      <p>98% - 2020</p>
-    </div>
-
-    <div class="skills-sub-content">
-      <h3>Intermediate</h3>
-      <p>Pragati Junior College</p>
-      <p>71.5% - 2022</p>
-    </div>
-
-    <div class="skills-sub-content">
-      <h3>B.Tech</h3>
-      <p>Ideal Institute of Technology</p>
-      <p>CGPA: 7.38</p>
-    </div>
+    <!-- FIX: Put correct profile image -->
+    <img src="images/profile.jpg">
   </div>
 </section>
 
@@ -72,36 +47,23 @@
 
     <div class="skills-sub-content">
       <h3>Portfolio Website</h3>
-      <p>Responsive portfolio using HTML, CSS, JavaScript</p>
+      <p>HTML, CSS, JavaScript</p>
+
+      <!-- FIX: Added buttons -->
+      <div class="btn-container">
+        <a href="#" class="btn">Live</a>
+        <a href="#" class="btn">Source</a>
+      </div>
     </div>
 
     <div class="skills-sub-content">
       <h3>Jarvis AI</h3>
-      <p>Voice assistant using Web Speech API</p>
-    </div>
+      <p>Voice Assistant</p>
 
-  </div>
-</section>
-
-<!-- SKILLS -->
-<section class="Skills" id="Skills">
-  <h1 class="skl-h1">Skills</h1>
-
-  <div class="skills-sub">
-
-    <div class="skills-sub-content">
-      <h3>Web Development</h3>
-      <p>HTML, CSS, JavaScript</p>
-    </div>
-
-    <div class="skills-sub-content">
-      <h3>Programming</h3>
-      <p>Java, Problem Solving</p>
-    </div>
-
-    <div class="skills-sub-content">
-      <h3>Soft Skills</h3>
-      <p>Teamwork, Communication</p>
+      <div class="btn-container">
+        <a href="https://operating-jravis.netlify.app/" class="btn">Live</a>
+        <a href="https://github.com/KSatyaSaiNivas/Jarvis-Ai" class="btn">Source</a>
+      </div>
     </div>
 
   </div>
@@ -112,16 +74,24 @@
   <h1 class="skl-h1">Contact</h1>
 
   <div class="contact-info">
-    <p>Name: K. Satya Sai Nivas</p>
-    <p>Mobile: 8309514998</p>
     <p>Email: sainivaskale2@gmail.com</p>
   </div>
 
-  <div>
-    <img src="instagram.png" class="social-icon-image">
-    <img src="github.png" class="social-icon-image">
-    <img src="linkedin.png" class="social-icon-image">
+  <!-- FIX: Proper icons -->
+  <div class="social-icons">
+    <a href="https://instagram.com">
+      <img src="images/instagram.png" class="social-icon-image">
+    </a>
+
+    <a href="https://github.com">
+      <img src="images/github.png" class="social-icon-image">
+    </a>
+
+    <a href="https://linkedin.com">
+      <img src="images/linkedin.png" class="social-icon-image">
+    </a>
   </div>
+
 </section>
 
 </body>
